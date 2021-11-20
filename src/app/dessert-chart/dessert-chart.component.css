@@ -1,8 +1,4 @@
 .chart {
-  /* margin: auto; */
-  /* position: relative;  */
-  /* height:40vh; 
-  width:80vw;  */
   max-width: inherit; 
   overflow:visible
 }

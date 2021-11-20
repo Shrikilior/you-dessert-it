@@ -14,7 +14,6 @@ h2 {
 .logo {
     width: 40px;
     margin-left: 10px;
-    /* border: 3px solid black; */
     display: inline;
 }
 
@@ -23,26 +22,15 @@ img {
     display: inline-block;
 }
 
-/* button {
-    border-radius: 15px;
-}
-
-button:hover {
-    background-color: brown;
-} */
-
 button {
     font-family: 'Sansita', sans-serif;
     color: #f8e9e0;
-    /* padding: 10px; */
     background-color: #c2875b;
     border-radius: 25px;
     border: 3px solid #d6a681;
     width: 110px;
     margin: auto;
-    /* margin-top: 10px; */
     text-align: center;
-    /* width: 75%; */
 }
 
 button:hover {

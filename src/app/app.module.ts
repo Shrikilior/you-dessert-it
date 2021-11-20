@@ -15,6 +15,7 @@ import { AddDessertDialogComponent } from './add-dessert-dialog/add-dessert-dial
 import { ListItemComponent } from './list-item/list-item.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { DessertButtonComponent } from './dessert-button/dessert-button.component';
+import { AddDessertBarComponent } from './add-dessert-bar/add-dessert-bar.component';
 
 // Animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -28,7 +29,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { AddDessertBarComponent } from './add-dessert-bar/add-dessert-bar.component';
 
 @NgModule({
   declarations: [
