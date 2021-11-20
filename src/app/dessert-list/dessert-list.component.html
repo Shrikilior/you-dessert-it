@@ -1,0 +1,10 @@
+<add-dessert-bar></add-dessert-bar>
+<ul>
+    <li @fade *ngFor="let item of itemList; let i = index">
+        <list-item 
+        [amount]="item.amount" [itemName]="item.name" [index]="i">
+        </list-item>
+    </li>
+</ul>
+
+

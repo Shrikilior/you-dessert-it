@@ -1,0 +1,7 @@
+<div class="item-card" *ngIf="amount !== 0">
+    <div class="dessertItem">
+        <span class="text">{{amount}} X {{itemName}} </span>
+        <dessert-button (click)="deleteDessert()"></dessert-button>
+    </div>
+</div>
+

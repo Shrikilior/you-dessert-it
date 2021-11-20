@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+/*---------------*/
+/* Basic setup */
+/*---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow: visible;
+    background-color: #c2875b;
+    /* bg image */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.7)), url(./assets/pexels-chocolate-4109996.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* static the backgound image when scrolling */
+    background-attachment: fixed;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* General styling for Components */
+
+/* Color palette
+
+super light pink: #f8e9e0
+light pink: #f3dbd2
+dark pink: #f2c5bf
+light brown: #cca364
+dark brown: #7d5643
+peru brown: #c2875b
+grey: #6a7a8b
+bordo: #a13b1d
+
+Fonts
+
+Script
+font-family: 'Norican', cursive;
+Buttons + Logo
+font-family: 'Sansita', sans-serif;
+
+*/
+
+.spacer {
+    flex: 1 1 auto;
+}

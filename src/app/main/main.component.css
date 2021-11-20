@@ -1,0 +1,17 @@
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    vertical-align:top;
+    text-align: left;
+    display: inline-block;
+}
+
+.main-container {
+    /* aligning the child divs to center */
+    text-align: center;
+    /* border: 3px solid green; */
+    max-width: 1040px;
+    margin: auto;
+}

@@ -1,0 +1,9 @@
+
+<div class="bar">
+    <span class="text">Add your dessert</span>
+    <form #f="ngForm" class="dessert-form" (ngSubmit)="submit(f)">
+        <input type="text" placeholder="Name" [(ngModel)]="newDessert.name" name="name" required class="name-input">
+        <input type="number" placeholder="Amount" min="1" [(ngModel)]="newDessert.amount" name="amount" required class="number-input">
+        <button type="submit" [disabled]="!f.valid" [class.btn-invalid]="!f.valid">+</button>
+    </form>
+</div>
